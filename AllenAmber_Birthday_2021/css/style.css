@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Gilbert';
+    src: url('../fonts/Gilbert-Color Bold Preview5.otf');
+}
+h1 {
+    font-size: 1.5rem;
+    line-height: 3;
+    text-align: center;
+    color: #F13B4E;
+}
+.gilbert {
+    font-family: 'Gilbert';
+}
+
+.fadeInEmphasize{
+    animation: fadeInBot 2.0s, grow 1s 2.1s, shrink 1s 3s;
+    -webkit-animation: fadeInBot 2.0s, grow 1s 2.1s, shrink 1s 3s;
+    -moz-animation: fadeInBot 2.0s, grow 1s 2.1s, shrink 1s 3s;
+}
+
+@keyframes fadeInBot {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(80px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes fadeInBot {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(80px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes grow{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@-webkit-keyframes shrink{
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes fadeInBot{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-80px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+@-moz-keyframes grow{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@-moz-keyframes shrink{
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+header{
+    padding-bottom: 1rem;
+}
+
+.english >*{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    padding-bottom: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+strong a{
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration: underline;
+    color: #0645AD;
+}
+
+img#bubu_beat{
+    max-width: 100px;
+}
+
+section.birthday_party{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.birthday_party div{
+    position:relative;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+div.balloons{
+    display:flex;
+    justify-content: space-around;
+}
+
+div.cake{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div.bears{
+    display: flex;
+    justify-content: center;
+    bottom: -80px;
+}
+
+img#pink_balloon{
+    position:relative;
+    top: 350px;
+    left: 80px;
+    z-index: 100;
+}
+
+img#blue_balloon{
+    position:relative;
+    top: 300px;
+    right: 20px;
+    z-index: 100;
+}
+
+img#grey_balloon{
+    position:relative;
+    top:200px;
+}
+
+img#bubu_celebrate{
+    max-width: 200px;
+}
+
+img#cake_bg {
+    right: 0;
+    width: 100%;
+    max-width: 310px;
+    z-index: 1000;
+}
+
+section.message{
+    background-color: #FFFBF3;
+}
+
+footer{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+footer img{
+    text-align: center;
+}
+
+footer nav{
+    margin:2rem;
+}
+
+footer nav a{
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: #FFEBC6;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #993955;
+}
+
+footer nav a:hover{
+    color:#F13B4E;
+}
+
+section.message button{
+    display: block;
+    color:#FFFFFF;
+    background-color: #F13B4E;
+    border-radius: 5px;
+    margin:auto;
+    font-weight: bolder;
+}
+
+.chinese >*{
+    font-family: 'Noto Sans SC', sans-serif;
+        font-size: 0.9rem;
+    padding-bottom: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+section.message p.gilbert{
+    font-family: 'Gilbert';
+}
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
